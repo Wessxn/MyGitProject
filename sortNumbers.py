@@ -25,7 +25,7 @@ def insertion_sort(numbers):
     return numbers, comparisons, swaps
 
 
-# Selection Sort of numbers
+# Selection sort of numbers
 def selection_sort(numbers):
     comparisons = 0
     swaps = 0
