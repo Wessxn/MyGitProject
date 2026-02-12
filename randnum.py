@@ -32,4 +32,5 @@ if (min_range >= max_range or max_range <= min_range):
 with open(file_name, 'w') as file: 
     for i in range(total_num):
         num = random.randrange(min_range, max_range + 1)
+        #writes to file
         file.write(str(num) + "\n")
